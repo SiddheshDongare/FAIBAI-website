@@ -8,10 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             font-family: 'Lexend', sans-serif;
@@ -65,41 +63,55 @@
         .about-content p {
             margin-bottom: 1rem;
         }
+
+        @media (max-width: 640px) {
+            .about-content h1 {
+                font-size: 1.5rem;
+            }
+
+            .about-content h1.small-heading {
+                font-size: 1.2rem;
+            }
+
+            .about-content p {
+                font-size: 0.9rem;
+            }
+        }
     </style>
     <title>About Us</title>
 </head>
 
 <body>
-<video class="background-video" autoplay muted loop>
-    <source src="animation.webm" type="video/webm">
-    Your browser does not support the video tag.
-</video>
-<div class="container">
-    <div class="about-content">
-        <h1>About</h1>
-        <p>
-            <a class="contrast-text">Welcome to F.A.I.B.A.I</a> – For AI, By
-            AI! Buckle up because this podcast is all about AI taking the wheel
-            and driving us through the latest and greatest in AI news. Each
-            week, I’m cranking out bite-sized episodes that fit perfectly into
-            your busy hustle, so you can stay on top of AI breakthroughs
-            without missing a beat. </p>
-        <h1 class="small-heading">Why F.A.I.B.A.I?</h1>
-        <p>As a young SDE, I’m passionate about pushing the boundaries of
-            <a class="contrast-text">GenAI</a>. This project is my way of exploring and demonstrating the
-            creative potential of AI-generated media. It's both a significant
-            learning opportunity for me and a chance to showcase my
-            capabilities.</p>
-        <p>
-            <a class="contrast-text">F.A.I.B.A.I</a> is all about AI
-            creating awesome content that’s easy to digest and totally
-            inspiring. No human scripting here – just pure, unfiltered AI
-            magic. So, join me each week and watch as AI takes content creation
-            to the next level, <a class="contrast-text">one epic quarter mile
-            at a time.</a>
-        </p>
+    <video class="background-video" autoplay muted loop>
+        <source src="animation.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <div class="about-content">
+            <h1>About</h1>
+            <p>
+                <a class="contrast-text">Welcome to F.A.I.B.A.I</a> – For AI, By
+                AI! Buckle up because this podcast is all about AI taking the wheel
+                and driving us through the latest and greatest in AI news. Each
+                week, I’m cranking out bite-sized episodes that fit perfectly into
+                your busy hustle, so you can stay on top of AI breakthroughs
+                without missing a beat. </p>
+            <h1 class="small-heading">Why F.A.I.B.A.I?</h1>
+            <p>As a young SDE, I’m passionate about pushing the boundaries of
+                <a class="contrast-text">GenAI</a>. This project is my way of exploring and demonstrating the
+                creative potential of AI-generated media. It's both a significant
+                learning opportunity for me and a chance to showcase my
+                capabilities.</p>
+            <p>
+                <a class="contrast-text">F.A.I.B.A.I</a> is all about AI
+                creating awesome content that’s easy to digest and totally
+                inspiring. No human scripting here – just pure, unfiltered AI
+                magic. So, join me each week and watch as AI takes content creation
+                to the next level, <a class="contrast-text">one epic quarter mile
+                at a time.</a>
+            </p>
+        </div>
     </div>
-</div>
 </body>
 
 </html>
